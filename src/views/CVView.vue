@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>I will be updating my CV here!</h1>
   </div>
 </template>
 

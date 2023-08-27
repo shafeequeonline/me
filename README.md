@@ -50,3 +50,10 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### Deploy
+
+```sh
+npm run deploy
+```
+This will trigger the build and start publishing
