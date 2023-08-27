@@ -8,6 +8,9 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
-  Mohamed Shafeeque Naripatta <br/>
-  Berlin, Germany
+  <p>
+    Mohamed Shafeeque Naripatta <br/>
+    Frontend Developer <br/>
+    Berlin, Germany
+  </p>
 </template>

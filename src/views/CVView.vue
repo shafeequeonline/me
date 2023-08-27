@@ -1,13 +1,12 @@
 <template>
   <div class="about">
-    <h1>I will be updating my CV here!</h1>
+    <p>I will be updating my CV here!</p>
   </div>
 </template>
 
 <style>
 @media (min-width: 1024px) {
   .about {
-    min-height: 100vh;
     display: flex;
     align-items: center;
   }

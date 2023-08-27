@@ -1,26 +1,21 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import TheHeader from './components/TheHeader.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/shafeeque.png" width="288" height="288" />
-
-    <div class="wrapper">
-      <HelloWorld msg="Welcome!" />
-
+  <div class="wrapper">
+    <header>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/CV">CV</RouterLink>
       </nav>
-    </div>
-  </header>
-
+    </header>
+  </div>
   <RouterView />
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -35,10 +30,15 @@ nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
+
+  a {
+    color: #878b95;
+  }
+
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: #41f7f7;
 }
 
 nav a.router-link-exact-active:hover {
@@ -59,7 +59,6 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
