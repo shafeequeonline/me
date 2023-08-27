@@ -2,7 +2,7 @@
   "name": "shafeeque-online",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://shafeequeonline.github.io/shafeequeonline.github.io/",
+  "homepage": "https://shafeequeonline.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
